@@ -129,7 +129,7 @@
 		48476909226DDA3E000A1CB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4847690F226DDE5B000A1CB3 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		48476913226DDF18000A1CB3 /* KZLoginShare.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = KZLoginShare.podspec; path = ../../KZLoginShare.podspec; sourceTree = "<group>"; };
-		48476914226DDFEC000A1CB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../公司项目/Lib/MamaShare/README.md"; sourceTree = "<group>"; };
+		48476A38226E05EC000A1CB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +194,7 @@
 		48476879226DD97D000A1CB3 /* KZLoginShare */ = {
 			isa = PBXGroup;
 			children = (
-				48476914226DDFEC000A1CB3 /* README.md */,
+				48476A38226E05EC000A1CB3 /* README.md */,
 				48476913226DDF18000A1CB3 /* KZLoginShare.podspec */,
 				484768AC226DD9CC000A1CB3 /* Demo */,
 				484768C1226DD9DB000A1CB3 /* Classes */,
