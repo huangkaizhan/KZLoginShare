@@ -270,16 +270,16 @@
 		484768C8226DD9DB000A1CB3 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */,
-				484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */,
-				484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */,
-				484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */,
-				484768CD226DD9DB000A1CB3 /* BaseShareTool_lib.h */,
 				484768CE226DD9DB000A1CB3 /* QQShareTool_lib.h */,
+				484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */,
+				484768CD226DD9DB000A1CB3 /* BaseShareTool_lib.h */,
+				484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */,
 				484768CF226DD9DB000A1CB3 /* ShareTool_lib.h */,
+				484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */,
+				484768DB226DD9DB000A1CB3 /* WXShareTool_lib.h */,
+				484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */,
 				484768D0226DD9DB000A1CB3 /* Model */,
 				484768D9226DD9DB000A1CB3 /* Header */,
-				484768DB226DD9DB000A1CB3 /* WXShareTool_lib.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -288,13 +288,13 @@
 			isa = PBXGroup;
 			children = (
 				484768D1226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.h */,
-				484768D2226DD9DB000A1CB3 /* ShareErrorModel_lib.h */,
+				484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */,
 				484768D3226DD9DB000A1CB3 /* ShareModel_lib.h */,
+				484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */,
 				484768D4226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m */,
 				484768D5226DD9DB000A1CB3 /* LoginUserInfoModel_lib.h */,
-				484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */,
+				484768D2226DD9DB000A1CB3 /* ShareErrorModel_lib.h */,
 				484768D7226DD9DB000A1CB3 /* ShareErrorModel_lib.m */,
-				484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";

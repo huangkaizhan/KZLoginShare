@@ -27,12 +27,14 @@
 - (void)setupThirdPatryLoginShareApi
 {
     ShareLoginConfigModel_lib *configModel = [[ShareLoginConfigModel_lib alloc] init];
-    configModel.wxAppKey = @"wxf200a0c37c3c3d56";
-    configModel.wxAppSecret = @"16733d8b4f712f5253995bd90ce6a8c0";
-    configModel.wxGetTokenUrl = @"https://api.weixin.qq.com/sns/oauth2/access_token";
-    configModel.redirectUrl = @"http://www.mama.cn";
-    configModel.wxGetUserInfoUrl = @"https://api.weixin.qq.com/sns/userinfo";
-    configModel.wxUrlSchemes = @"wxf200a0c37c3c3d56";
+    // 想要跟作者拿
+    // 微信：13570258332
+    configModel.wxAppKey = @"xxxxxx";
+    configModel.wxAppSecret = @"xxxxxx";
+    configModel.wxGetTokenUrl = @"xxxxxx";
+    configModel.redirectUrl = @"xxxxxx";
+    configModel.wxGetUserInfoUrl = @"xxxxxx";
+    configModel.wxUrlSchemes = @"xxxxxx";
     [[ShareTool_lib shareTool] setupWithConfigModel:configModel];
 }
 
