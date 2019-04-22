@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48476884226DD97E000A1CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48476883226DD97E000A1CB3 /* Assets.xcassets */; };
+		48476887226DD97E000A1CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48476885226DD97E000A1CB3 /* LaunchScreen.storyboard */; };
+		4847688A226DD97E000A1CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48476889226DD97E000A1CB3 /* main.m */; };
+		48476894226DD97E000A1CB3 /* KZLoginShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48476893226DD97E000A1CB3 /* KZLoginShareTests.m */; };
+		4847689F226DD97E000A1CB3 /* KZLoginShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4847689E226DD97E000A1CB3 /* KZLoginShareUITests.m */; };
+		484768B5226DD9CC000A1CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768AF226DD9CC000A1CB3 /* ViewController.m */; };
+		484768B6226DD9CC000A1CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768AF226DD9CC000A1CB3 /* ViewController.m */; };
+		484768B7226DD9CC000A1CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768AF226DD9CC000A1CB3 /* ViewController.m */; };
+		484768B8226DD9CC000A1CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484768B0226DD9CC000A1CB3 /* Main.storyboard */; };
+		484768B9226DD9CC000A1CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484768B0226DD9CC000A1CB3 /* Main.storyboard */; };
+		484768BA226DD9CC000A1CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484768B0226DD9CC000A1CB3 /* Main.storyboard */; };
+		484768BB226DD9CC000A1CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768B2226DD9CC000A1CB3 /* AppDelegate.m */; };
+		484768BC226DD9CC000A1CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768B2226DD9CC000A1CB3 /* AppDelegate.m */; };
+		484768BD226DD9CC000A1CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768B2226DD9CC000A1CB3 /* AppDelegate.m */; };
+		484768BE226DD9CC000A1CB3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768B3226DD9CC000A1CB3 /* TableViewController.m */; };
+		484768BF226DD9CC000A1CB3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768B3226DD9CC000A1CB3 /* TableViewController.m */; };
+		484768C0226DD9CC000A1CB3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768B3226DD9CC000A1CB3 /* TableViewController.m */; };
+		484768DE226DD9DB000A1CB3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 484768C6226DD9DB000A1CB3 /* libWeChatSDK.a */; };
+		484768DF226DD9DB000A1CB3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 484768C6226DD9DB000A1CB3 /* libWeChatSDK.a */; };
+		484768E0226DD9DB000A1CB3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 484768C6226DD9DB000A1CB3 /* libWeChatSDK.a */; };
+		484768E1226DD9DB000A1CB3 /* QQShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */; };
+		484768E2226DD9DB000A1CB3 /* QQShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */; };
+		484768E3226DD9DB000A1CB3 /* QQShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */; };
+		484768E4226DD9DB000A1CB3 /* BaseShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */; };
+		484768E5226DD9DB000A1CB3 /* BaseShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */; };
+		484768E6226DD9DB000A1CB3 /* BaseShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */; };
+		484768E7226DD9DB000A1CB3 /* ShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */; };
+		484768E8226DD9DB000A1CB3 /* ShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */; };
+		484768E9226DD9DB000A1CB3 /* ShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */; };
+		484768EA226DD9DB000A1CB3 /* WXShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */; };
+		484768EB226DD9DB000A1CB3 /* WXShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */; };
+		484768EC226DD9DB000A1CB3 /* WXShareTool_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */; };
+		484768ED226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D4226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m */; };
+		484768EE226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D4226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m */; };
+		484768EF226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D4226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m */; };
+		484768F0226DD9DB000A1CB3 /* ShareModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */; };
+		484768F1226DD9DB000A1CB3 /* ShareModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */; };
+		484768F2226DD9DB000A1CB3 /* ShareModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */; };
+		484768F3226DD9DB000A1CB3 /* ShareErrorModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D7226DD9DB000A1CB3 /* ShareErrorModel_lib.m */; };
+		484768F4226DD9DB000A1CB3 /* ShareErrorModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D7226DD9DB000A1CB3 /* ShareErrorModel_lib.m */; };
+		484768F5226DD9DB000A1CB3 /* ShareErrorModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D7226DD9DB000A1CB3 /* ShareErrorModel_lib.m */; };
+		484768F6226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */; };
+		484768F7226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */; };
+		484768F8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */; };
+		484768FE226DDA0A000A1CB3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484768FD226DDA0A000A1CB3 /* CFNetwork.framework */; };
+		48476900226DDA13000A1CB3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484768FF226DDA13000A1CB3 /* CoreTelephony.framework */; };
+		48476902226DDA1A000A1CB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48476901226DDA1A000A1CB3 /* Security.framework */; };
+		48476904226DDA22000A1CB3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48476903226DDA22000A1CB3 /* libc++.tbd */; };
+		48476906226DDA2F000A1CB3 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48476905226DDA2F000A1CB3 /* libsqlite3.0.tbd */; };
+		48476908226DDA38000A1CB3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48476907226DDA37000A1CB3 /* libz.tbd */; };
+		4847690A226DDA3E000A1CB3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48476909226DDA3E000A1CB3 /* SystemConfiguration.framework */; };
+		48476910226DDE5C000A1CB3 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4847690F226DDE5B000A1CB3 /* TencentOpenAPI.framework */; };
+		48476911226DDE5C000A1CB3 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4847690F226DDE5B000A1CB3 /* TencentOpenAPI.framework */; };
+		48476912226DDE5C000A1CB3 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4847690F226DDE5B000A1CB3 /* TencentOpenAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48476890226DD97E000A1CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4847686F226DD97D000A1CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48476876226DD97D000A1CB3;
+			remoteInfo = KZLoginShare;
+		};
+		4847689B226DD97E000A1CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4847686F226DD97D000A1CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48476876226DD97D000A1CB3;
+			remoteInfo = KZLoginShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48476877226DD97D000A1CB3 /* KZLoginShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZLoginShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48476883226DD97E000A1CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48476886226DD97E000A1CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48476888226DD97E000A1CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48476889226DD97E000A1CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4847688F226DD97E000A1CB3 /* KZLoginShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZLoginShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48476893226DD97E000A1CB3 /* KZLoginShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZLoginShareTests.m; sourceTree = "<group>"; };
+		48476895226DD97E000A1CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4847689A226DD97E000A1CB3 /* KZLoginShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZLoginShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4847689E226DD97E000A1CB3 /* KZLoginShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZLoginShareUITests.m; sourceTree = "<group>"; };
+		484768A0226DD97E000A1CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484768AD226DD9CC000A1CB3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		484768AE226DD9CC000A1CB3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		484768AF226DD9CC000A1CB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		484768B1226DD9CC000A1CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484768B2226DD9CC000A1CB3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		484768B3226DD9CC000A1CB3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		484768B4226DD9CC000A1CB3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		484768C3226DD9DB000A1CB3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		484768C4226DD9DB000A1CB3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		484768C5226DD9DB000A1CB3 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		484768C6226DD9DB000A1CB3 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQShareTool_lib.m; sourceTree = "<group>"; };
+		484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShareTool_lib.m; sourceTree = "<group>"; };
+		484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareTool_lib.m; sourceTree = "<group>"; };
+		484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXShareTool_lib.m; sourceTree = "<group>"; };
+		484768CD226DD9DB000A1CB3 /* BaseShareTool_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShareTool_lib.h; sourceTree = "<group>"; };
+		484768CE226DD9DB000A1CB3 /* QQShareTool_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQShareTool_lib.h; sourceTree = "<group>"; };
+		484768CF226DD9DB000A1CB3 /* ShareTool_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTool_lib.h; sourceTree = "<group>"; };
+		484768D1226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareLoginConfigModel_lib.h; sourceTree = "<group>"; };
+		484768D2226DD9DB000A1CB3 /* ShareErrorModel_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareErrorModel_lib.h; sourceTree = "<group>"; };
+		484768D3226DD9DB000A1CB3 /* ShareModel_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareModel_lib.h; sourceTree = "<group>"; };
+		484768D4226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUserInfoModel_lib.m; sourceTree = "<group>"; };
+		484768D5226DD9DB000A1CB3 /* LoginUserInfoModel_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUserInfoModel_lib.h; sourceTree = "<group>"; };
+		484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareModel_lib.m; sourceTree = "<group>"; };
+		484768D7226DD9DB000A1CB3 /* ShareErrorModel_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareErrorModel_lib.m; sourceTree = "<group>"; };
+		484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareLoginConfigModel_lib.m; sourceTree = "<group>"; };
+		484768DA226DD9DB000A1CB3 /* ShareLoginHeader_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareLoginHeader_lib.h; sourceTree = "<group>"; };
+		484768DB226DD9DB000A1CB3 /* WXShareTool_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXShareTool_lib.h; sourceTree = "<group>"; };
+		484768FD226DDA0A000A1CB3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		484768FF226DDA13000A1CB3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		48476901226DDA1A000A1CB3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		48476903226DDA22000A1CB3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		48476905226DDA2F000A1CB3 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		48476907226DDA37000A1CB3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		48476909226DDA3E000A1CB3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4847690F226DDE5B000A1CB3 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		48476913226DDF18000A1CB3 /* KZLoginShare.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = KZLoginShare.podspec; path = ../../KZLoginShare.podspec; sourceTree = "<group>"; };
+		48476914226DDFEC000A1CB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../../../公司项目/Lib/MamaShare/README.md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48476874226DD97D000A1CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4847690A226DDA3E000A1CB3 /* SystemConfiguration.framework in Frameworks */,
+				48476908226DDA38000A1CB3 /* libz.tbd in Frameworks */,
+				48476906226DDA2F000A1CB3 /* libsqlite3.0.tbd in Frameworks */,
+				48476904226DDA22000A1CB3 /* libc++.tbd in Frameworks */,
+				48476910226DDE5C000A1CB3 /* TencentOpenAPI.framework in Frameworks */,
+				48476902226DDA1A000A1CB3 /* Security.framework in Frameworks */,
+				48476900226DDA13000A1CB3 /* CoreTelephony.framework in Frameworks */,
+				484768FE226DDA0A000A1CB3 /* CFNetwork.framework in Frameworks */,
+				484768DE226DD9DB000A1CB3 /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4847688C226DD97E000A1CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768DF226DD9DB000A1CB3 /* libWeChatSDK.a in Frameworks */,
+				48476911226DDE5C000A1CB3 /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48476897226DD97E000A1CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768E0226DD9DB000A1CB3 /* libWeChatSDK.a in Frameworks */,
+				48476912226DDE5C000A1CB3 /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4847686E226DD97D000A1CB3 = {
+			isa = PBXGroup;
+			children = (
+				48476879226DD97D000A1CB3 /* KZLoginShare */,
+				48476892226DD97E000A1CB3 /* KZLoginShareTests */,
+				4847689D226DD97E000A1CB3 /* KZLoginShareUITests */,
+				48476878226DD97D000A1CB3 /* Products */,
+				484768FC226DDA0A000A1CB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48476878226DD97D000A1CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48476877226DD97D000A1CB3 /* KZLoginShare.app */,
+				4847688F226DD97E000A1CB3 /* KZLoginShareTests.xctest */,
+				4847689A226DD97E000A1CB3 /* KZLoginShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48476879226DD97D000A1CB3 /* KZLoginShare */ = {
+			isa = PBXGroup;
+			children = (
+				48476914226DDFEC000A1CB3 /* README.md */,
+				48476913226DDF18000A1CB3 /* KZLoginShare.podspec */,
+				484768AC226DD9CC000A1CB3 /* Demo */,
+				484768C1226DD9DB000A1CB3 /* Classes */,
+				48476883226DD97E000A1CB3 /* Assets.xcassets */,
+				48476885226DD97E000A1CB3 /* LaunchScreen.storyboard */,
+				48476888226DD97E000A1CB3 /* Info.plist */,
+				48476889226DD97E000A1CB3 /* main.m */,
+			);
+			path = KZLoginShare;
+			sourceTree = "<group>";
+		};
+		48476892226DD97E000A1CB3 /* KZLoginShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				48476893226DD97E000A1CB3 /* KZLoginShareTests.m */,
+				48476895226DD97E000A1CB3 /* Info.plist */,
+			);
+			path = KZLoginShareTests;
+			sourceTree = "<group>";
+		};
+		4847689D226DD97E000A1CB3 /* KZLoginShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4847689E226DD97E000A1CB3 /* KZLoginShareUITests.m */,
+				484768A0226DD97E000A1CB3 /* Info.plist */,
+			);
+			path = KZLoginShareUITests;
+			sourceTree = "<group>";
+		};
+		484768AC226DD9CC000A1CB3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				484768AD226DD9CC000A1CB3 /* AppDelegate.h */,
+				484768B2226DD9CC000A1CB3 /* AppDelegate.m */,
+				484768AE226DD9CC000A1CB3 /* TableViewController.h */,
+				484768B3226DD9CC000A1CB3 /* TableViewController.m */,
+				484768B4226DD9CC000A1CB3 /* ViewController.h */,
+				484768AF226DD9CC000A1CB3 /* ViewController.m */,
+				484768B0226DD9CC000A1CB3 /* Main.storyboard */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		484768C1226DD9DB000A1CB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				484768C2226DD9DB000A1CB3 /* Weixin */,
+				484768C7226DD9DB000A1CB3 /* Weibo */,
+				484768C8226DD9DB000A1CB3 /* Tool */,
+				484768DC226DD9DB000A1CB3 /* QQ */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		484768C2226DD9DB000A1CB3 /* Weixin */ = {
+			isa = PBXGroup;
+			children = (
+				484768C3226DD9DB000A1CB3 /* WXApi.h */,
+				484768C4226DD9DB000A1CB3 /* WXApiObject.h */,
+				484768C5226DD9DB000A1CB3 /* WechatAuthSDK.h */,
+				484768C6226DD9DB000A1CB3 /* libWeChatSDK.a */,
+			);
+			path = Weixin;
+			sourceTree = "<group>";
+		};
+		484768C7226DD9DB000A1CB3 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		484768C8226DD9DB000A1CB3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				484768C9226DD9DB000A1CB3 /* QQShareTool_lib.m */,
+				484768CA226DD9DB000A1CB3 /* BaseShareTool_lib.m */,
+				484768CB226DD9DB000A1CB3 /* ShareTool_lib.m */,
+				484768CC226DD9DB000A1CB3 /* WXShareTool_lib.m */,
+				484768CD226DD9DB000A1CB3 /* BaseShareTool_lib.h */,
+				484768CE226DD9DB000A1CB3 /* QQShareTool_lib.h */,
+				484768CF226DD9DB000A1CB3 /* ShareTool_lib.h */,
+				484768D0226DD9DB000A1CB3 /* Model */,
+				484768D9226DD9DB000A1CB3 /* Header */,
+				484768DB226DD9DB000A1CB3 /* WXShareTool_lib.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		484768D0226DD9DB000A1CB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				484768D1226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.h */,
+				484768D2226DD9DB000A1CB3 /* ShareErrorModel_lib.h */,
+				484768D3226DD9DB000A1CB3 /* ShareModel_lib.h */,
+				484768D4226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m */,
+				484768D5226DD9DB000A1CB3 /* LoginUserInfoModel_lib.h */,
+				484768D6226DD9DB000A1CB3 /* ShareModel_lib.m */,
+				484768D7226DD9DB000A1CB3 /* ShareErrorModel_lib.m */,
+				484768D8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		484768D9226DD9DB000A1CB3 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				484768DA226DD9DB000A1CB3 /* ShareLoginHeader_lib.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		484768DC226DD9DB000A1CB3 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				4847690F226DDE5B000A1CB3 /* TencentOpenAPI.framework */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		484768FC226DDA0A000A1CB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48476909226DDA3E000A1CB3 /* SystemConfiguration.framework */,
+				48476907226DDA37000A1CB3 /* libz.tbd */,
+				48476905226DDA2F000A1CB3 /* libsqlite3.0.tbd */,
+				48476903226DDA22000A1CB3 /* libc++.tbd */,
+				48476901226DDA1A000A1CB3 /* Security.framework */,
+				484768FF226DDA13000A1CB3 /* CoreTelephony.framework */,
+				484768FD226DDA0A000A1CB3 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48476876226DD97D000A1CB3 /* KZLoginShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484768A3226DD97E000A1CB3 /* Build configuration list for PBXNativeTarget "KZLoginShare" */;
+			buildPhases = (
+				48476873226DD97D000A1CB3 /* Sources */,
+				48476874226DD97D000A1CB3 /* Frameworks */,
+				48476875226DD97D000A1CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZLoginShare;
+			productName = KZLoginShare;
+			productReference = 48476877226DD97D000A1CB3 /* KZLoginShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4847688E226DD97E000A1CB3 /* KZLoginShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484768A6226DD97E000A1CB3 /* Build configuration list for PBXNativeTarget "KZLoginShareTests" */;
+			buildPhases = (
+				4847688B226DD97E000A1CB3 /* Sources */,
+				4847688C226DD97E000A1CB3 /* Frameworks */,
+				4847688D226DD97E000A1CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48476891226DD97E000A1CB3 /* PBXTargetDependency */,
+			);
+			name = KZLoginShareTests;
+			productName = KZLoginShareTests;
+			productReference = 4847688F226DD97E000A1CB3 /* KZLoginShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48476899226DD97E000A1CB3 /* KZLoginShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484768A9226DD97E000A1CB3 /* Build configuration list for PBXNativeTarget "KZLoginShareUITests" */;
+			buildPhases = (
+				48476896226DD97E000A1CB3 /* Sources */,
+				48476897226DD97E000A1CB3 /* Frameworks */,
+				48476898226DD97E000A1CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4847689C226DD97E000A1CB3 /* PBXTargetDependency */,
+			);
+			name = KZLoginShareUITests;
+			productName = KZLoginShareUITests;
+			productReference = 4847689A226DD97E000A1CB3 /* KZLoginShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4847686F226DD97D000A1CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BaiKaiLeBeiShui;
+				TargetAttributes = {
+					48476876226DD97D000A1CB3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					4847688E226DD97E000A1CB3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 48476876226DD97D000A1CB3;
+					};
+					48476899226DD97E000A1CB3 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 48476876226DD97D000A1CB3;
+					};
+				};
+			};
+			buildConfigurationList = 48476872226DD97D000A1CB3 /* Build configuration list for PBXProject "KZLoginShare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4847686E226DD97D000A1CB3;
+			productRefGroup = 48476878226DD97D000A1CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48476876226DD97D000A1CB3 /* KZLoginShare */,
+				4847688E226DD97E000A1CB3 /* KZLoginShareTests */,
+				48476899226DD97E000A1CB3 /* KZLoginShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48476875226DD97D000A1CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768B8226DD9CC000A1CB3 /* Main.storyboard in Resources */,
+				48476887226DD97E000A1CB3 /* LaunchScreen.storyboard in Resources */,
+				48476884226DD97E000A1CB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4847688D226DD97E000A1CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768B9226DD9CC000A1CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48476898226DD97E000A1CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768BA226DD9CC000A1CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48476873226DD97D000A1CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768B5226DD9CC000A1CB3 /* ViewController.m in Sources */,
+				484768E7226DD9DB000A1CB3 /* ShareTool_lib.m in Sources */,
+				484768EA226DD9DB000A1CB3 /* WXShareTool_lib.m in Sources */,
+				484768ED226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m in Sources */,
+				484768F3226DD9DB000A1CB3 /* ShareErrorModel_lib.m in Sources */,
+				4847688A226DD97E000A1CB3 /* main.m in Sources */,
+				484768F0226DD9DB000A1CB3 /* ShareModel_lib.m in Sources */,
+				484768E4226DD9DB000A1CB3 /* BaseShareTool_lib.m in Sources */,
+				484768BB226DD9CC000A1CB3 /* AppDelegate.m in Sources */,
+				484768BE226DD9CC000A1CB3 /* TableViewController.m in Sources */,
+				484768E1226DD9DB000A1CB3 /* QQShareTool_lib.m in Sources */,
+				484768F6226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4847688B226DD97E000A1CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768B6226DD9CC000A1CB3 /* ViewController.m in Sources */,
+				484768E8226DD9DB000A1CB3 /* ShareTool_lib.m in Sources */,
+				484768EB226DD9DB000A1CB3 /* WXShareTool_lib.m in Sources */,
+				484768EE226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m in Sources */,
+				484768F4226DD9DB000A1CB3 /* ShareErrorModel_lib.m in Sources */,
+				48476894226DD97E000A1CB3 /* KZLoginShareTests.m in Sources */,
+				484768F1226DD9DB000A1CB3 /* ShareModel_lib.m in Sources */,
+				484768E5226DD9DB000A1CB3 /* BaseShareTool_lib.m in Sources */,
+				484768BC226DD9CC000A1CB3 /* AppDelegate.m in Sources */,
+				484768BF226DD9CC000A1CB3 /* TableViewController.m in Sources */,
+				484768E2226DD9DB000A1CB3 /* QQShareTool_lib.m in Sources */,
+				484768F7226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48476896226DD97E000A1CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484768B7226DD9CC000A1CB3 /* ViewController.m in Sources */,
+				484768E9226DD9DB000A1CB3 /* ShareTool_lib.m in Sources */,
+				484768EC226DD9DB000A1CB3 /* WXShareTool_lib.m in Sources */,
+				484768EF226DD9DB000A1CB3 /* LoginUserInfoModel_lib.m in Sources */,
+				484768F5226DD9DB000A1CB3 /* ShareErrorModel_lib.m in Sources */,
+				4847689F226DD97E000A1CB3 /* KZLoginShareUITests.m in Sources */,
+				484768F2226DD9DB000A1CB3 /* ShareModel_lib.m in Sources */,
+				484768E6226DD9DB000A1CB3 /* BaseShareTool_lib.m in Sources */,
+				484768BD226DD9CC000A1CB3 /* AppDelegate.m in Sources */,
+				484768C0226DD9CC000A1CB3 /* TableViewController.m in Sources */,
+				484768E3226DD9DB000A1CB3 /* QQShareTool_lib.m in Sources */,
+				484768F8226DD9DB000A1CB3 /* ShareLoginConfigModel_lib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48476891226DD97E000A1CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48476876226DD97D000A1CB3 /* KZLoginShare */;
+			targetProxy = 48476890226DD97E000A1CB3 /* PBXContainerItemProxy */;
+		};
+		4847689C226DD97E000A1CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48476876226DD97D000A1CB3 /* KZLoginShare */;
+			targetProxy = 4847689B226DD97E000A1CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48476885226DD97E000A1CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48476886226DD97E000A1CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		484768B0226DD9CC000A1CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484768B1226DD9CC000A1CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484768A1226DD97E000A1CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		484768A2226DD97E000A1CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484768A4226DD97E000A1CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/QQ",
+				);
+				INFOPLIST_FILE = KZLoginShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/Weixin",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZLoginShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484768A5226DD97E000A1CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/QQ",
+				);
+				INFOPLIST_FILE = KZLoginShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/Weixin",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZLoginShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		484768A7226DD97E000A1CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/QQ",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/QQ",
+				);
+				INFOPLIST_FILE = KZLoginShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/Weixin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZLoginShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZLoginShare.app/KZLoginShare";
+			};
+			name = Debug;
+		};
+		484768A8226DD97E000A1CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/QQ",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/QQ",
+				);
+				INFOPLIST_FILE = KZLoginShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/Weixin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZLoginShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZLoginShare.app/KZLoginShare";
+			};
+			name = Release;
+		};
+		484768AA226DD97E000A1CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/QQ",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/QQ",
+				);
+				INFOPLIST_FILE = KZLoginShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/Weixin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZLoginShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZLoginShare;
+			};
+			name = Debug;
+		};
+		484768AB226DD97E000A1CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/QQ",
+					"$(PROJECT_DIR)/KZLoginShare/Classes/QQ",
+				);
+				INFOPLIST_FILE = KZLoginShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KZLoginShare/Demo/Classes/Weixin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.baikailebeishui.KZLoginShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KZLoginShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48476872226DD97D000A1CB3 /* Build configuration list for PBXProject "KZLoginShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484768A1226DD97E000A1CB3 /* Debug */,
+				484768A2226DD97E000A1CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484768A3226DD97E000A1CB3 /* Build configuration list for PBXNativeTarget "KZLoginShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484768A4226DD97E000A1CB3 /* Debug */,
+				484768A5226DD97E000A1CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484768A6226DD97E000A1CB3 /* Build configuration list for PBXNativeTarget "KZLoginShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484768A7226DD97E000A1CB3 /* Debug */,
+				484768A8226DD97E000A1CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484768A9226DD97E000A1CB3 /* Build configuration list for PBXNativeTarget "KZLoginShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484768AA226DD97E000A1CB3 /* Debug */,
+				484768AB226DD97E000A1CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4847686F226DD97D000A1CB3 /* Project object */;
+}
